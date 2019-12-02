@@ -63,6 +63,9 @@ repositories {
         url "$rootDir/../node_modules/react-native/android"
     }
     maven {
+         url  "https://dl.bintray.com/sumsub/maven"
+    }
+    maven {
         // Android JSC is installed from npm
         url "$rootDir/../node_modules/jsc-android/dist"
     }
@@ -73,6 +76,9 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
+    implementation 'com.sumsub:kyc-core:{last_version}'
+    implementation 'com.sumsub:kyc-liveness3d:{last-version}' //add this line if you need Liveness module
+    implementation 'com.sumsub:kyc-client:{last_version}'
 }
 
 def configureReactNativePom(def pom) {
