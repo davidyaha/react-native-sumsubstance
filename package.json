@@ -1,0 +1,33 @@
+{
+  "name": "react-native-sumsubstance",
+  "title": "React Native Sumsubstance",
+  "version": "1.0.0",
+  "description": "Wrapper for sumsubstance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trickyc0d3r/react-native-sumsubstance.git",
+    "baseUrl": "https://github.com/trickyc0d3r/react-native-sumsubstance"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Oleg Tiulenev",
+    "email": "trickyc0d3r@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": "^0.60.1"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.60.1"
+  }
+}
