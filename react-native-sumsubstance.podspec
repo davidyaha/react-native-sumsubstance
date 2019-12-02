@@ -21,7 +21,5 @@ Pod::Spec.new do |s|
 
   s.dependency "React"
   s.dependency 'SumSubstanceKYC'
-  s.dependency 'SumSubstance/Specs'
-  s.dependency 'CocoaPods/Specs'
 end
 
