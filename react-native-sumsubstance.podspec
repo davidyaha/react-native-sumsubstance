@@ -15,13 +15,13 @@ Pod::Spec.new do |s|
   s.authors      = { "Your Name" => "trickyc0d3r@gmail.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/trickyc0d3r/react-native-sumsubstance.git", :tag => "#{s.version}" }
-  s.source =  'https://github.com/CocoaPods/Specs.git'
   s.source = 'https://github.com/SumSubstance/Specs.git'
+  s.source =  'https://github.com/CocoaPods/Specs.git'
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'SumSubstanceKYC'
+  s.dependency 'SumSubstanceKYC.Frameworks '
 end
 
